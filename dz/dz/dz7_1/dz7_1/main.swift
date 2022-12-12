@@ -5,32 +5,6 @@
 //  Created by Maksumova Sofia on 9/12/22.
 
 
-
-
-
-
-//var totalPrice: Double = 0
-//var totalItems: Int = 0
-//var totalQuantity: Int = 0
-//var allNames = ""
-//func storeProducts1(name: String, manufacturer: String, weight: Float, barcode: Int, price: Double, discount: String?, availability: String, quantity: Int){
-//    totalPrice += price
-//    totalItems += 1
-//    totalQuantity += quantity
-//    allNames += name + " " + ","
-//
-//}
-
-//var myDictionary = [String: Int] = ["Хлеб": 100, "Молоко": 70, "Мясо говяжье": 10, "Курица": 5, "Масло растительное": 30, "Яйца куриные": 30, "Сливки": 35, "Чипсы": 25, "Семга": 25,"Авокадо": 15,"Бананы": 15, "Сахар": 40, "Вода": 100, "Кола": 80, "Сок": 70 ]
-
-
-//let names = ["Хлеб", "Молоко", "Мясо говяжье", "Курица", "Масло растительное", "Яйца куриные", "Сливки", "Чипсы", "Семга","Авокадо","Бананы", "Сахар", "Вода", "Кола", "Сок"]
-//let quantities = [100, 70, 10, 5, 30, 30, 35, 25, 25, 15, 15, 40, 100, 80, 70 ]
-//var seq = zip(names, quantities)
-//var dict = Dictionary(uniqueKeysWithValues:seq)
-//for (key, value) in dict {
-//    print("\(key) - \(value) шт")
-//}
 var totalPrice: Double = 0
 var totalItems: Int = 0
 var totalQuantity: Int = 0
