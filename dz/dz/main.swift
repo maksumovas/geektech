@@ -1,19 +1,5 @@
 //
 //  main.swift
-//  dz
-//
-//  Created by Maksumova Sofia on 27/11/22.
-//
-
-//
-//  main.swift
-//  dz_8
-//
-//  Created by Maksumova Sofia on 13/12/22.
-//
-
-//
-//  main.swift
 //  dz_8
 //
 //  Created by Maksumova Sofia on 13/12/22.
