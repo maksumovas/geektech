@@ -12,6 +12,13 @@
 //  Created by Maksumova Sofia on 13/12/22.
 //
 
+//
+//  main.swift
+//  dz_8
+//
+//  Created by Maksumova Sofia on 13/12/22.
+//
+
 var characters = ["Воин", "Колдун", "Медик", "Защитник", "Босс"]
 var charactersHp = [1000, 1000, 1000, 1500]
 var charactersDamage = [200, 300, 0, 100, 200]
@@ -31,7 +38,7 @@ while bossHp > 0{
         charactersHp[2] = charactersHp[2] - 200
         charactersHp[3] = charactersHp[3] - 200
     }
-    if bossHp >= 0 && charactersHp.reduce (0,+) > 0{
+    if bossHp <= 0 && charactersHp.reduce (0,+) > 0{
         print("Герои победили за \(raund) раунд/ов")
         print("\(characters[0]) нанес \(raund * charactersDamage[0]) урона боссу")
         print("\(characters[1]) нанес \(raund * charactersDamage[1]) урона боссу")
@@ -45,7 +52,7 @@ while bossHp > 0{
     if bossHp > 0 && charactersHp.reduce (0,+) <= 0{
         print("Босс победил за \(raund) раундов")
     }
-    if bossHp < 0 && charactersHp.reduce (0,+) > 0{
+    if bossHp > 0 && charactersHp.reduce (0,+) <= 0{
         print("Персонажи победил за \(raund) раундов")
     }
         
